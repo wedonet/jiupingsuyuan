@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://8.winqr.com/t/1010207720000299 -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>查询结果</title>
+    <link rel="stylesheet" href="./img/sbx_scan.css" type="text/css">
+
+    <script type="text/javascript" src="./img/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">  
+function getTime(){   
+var date = new Date(); //创建时间对象  
+var year = date.getFullYear(); //获取年   
+var month = date.getMonth()+1;//获取月
+var day = date.getDate(); //获取当日
+var hour= date.getHours();//得到小时数
+var minute= date.getMinutes();//得到分钟数
+var second= date.getSeconds();//得到秒数
+var time = year+"年"+month+"月"+day+"日"; //组合时间  
+document.getElementById('time').innerText=""+time+"";
+} 
+</script>
+</head>
+<body onload="getTime()">
+    <!-- 主 -->
+    <div class="main">
+        <!-- 企业信息 -->
+        <!-- 防伪查询 -->
+        <div class="box">
+            <!-- 标题 -->
+            <div class="box_title">
+                防伪溯源查询</div>
+            <!-- 内容 -->
+            <div class="box_body">
+                <!-- 标签图片 -->
+                <div id="divTagImg" class="box_body_item">
+                        <img style=" vertical-align: middle;" width="100%" src="img/banner.png">
+                </div>
+                <!-- 商品属性 -->
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        商品名称</div>
+                    <div class="box_body_item_right">
+                        津酒38°帝王风范</div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        溯源编码</div>
+                    <div class="box_body_item_right" id="tag_number">
+                        505643608723388423
+                    </div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        经销商</div>
+                    <div id="div4" class="box_body_item_right">
+                        一级经销商：天津贸易公司<br/>
+                        二级经销商：南楼津酒专卖店<br/>
+                    </div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        销售地区</div>
+                    <div id="div2" class="box_body_item_right">
+                        天津市河西区
+                    </div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        验证结果</div>
+                    <div id="divVerifyState" class="box_body_item_right">
+                        稽查人员验证结果为：<span style="color:Red;">未验证</span><br/>
+                    </div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+                <div class="box_body_item">
+                    <div class="box_body_item_left">
+                        消费者查询时间</div>
+                    <div id="div1" class="box_body_item_right">
+                        <span id="span1" style="color: #E50012">最新查询：<span id="time"></span><br />
+                            <span id="chaxunshijian" style="display: none;">
+                                第2次：2019年4月23日<br />
+                            </span><span id="zhankai" style="font-size:30px;line-height:20px;">...<span style="font-size:12px;color: #FFFFFF; cursor:pointer; background-color:#0E62C7;padding:5px;margin-left:5%;" onclick="document.getElementById('chaxunshijian').style.display='';document.getElementById('bihe').style.display='';document.getElementById('zhankai').style.display='none';">点击展开全部信息</span><br /></span>
+                            第1次：2019年3月15日
+                            <span id="bihe" style="font-size:12px;color: #FFFFFF; cursor:pointer; background-color:#0E62C7;padding:5px;display:none;" onclick="document.getElementById('chaxunshijian').style.display='none';document.getElementById('bihe').style.display='none';document.getElementById('zhankai').style.display='';"><br />点击省略部分信息</span>
+                        </span>
+                    </div>
+                    <div class="clearFloat">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+        <span class="btleft" onclick="window.open('sy.html','_top')">产品溯源</span>
+        <span class="btleft" onclick="window.open('fc.html','_top')">防窜查询</span>
+        <span class="btright" onclick="window.open('js.html','_top')">公司简介</span>
+        <span class="btleft" onclick="window.open('shop.html','_top')">溯源商城</span>
+        <span class="btleft" onclick="window.open('hd.html','_top')">有奖活动</span>
+        <span class="btright" onclick="window.open('reg.html','_top')">会员注册</span>
+        <div class="clearFloat"></div>
+        </div>
+        <!-- 底部 -->
+    </div>
+
+    <script src="./img/tagInit.js"></script>
+
+    <!--页面底部-->
+<!--    <div class="container" style="padding-top: 20px; border-top: 0.1em solid gainsboro;
+        margin-top: 20px; padding-bottom: 20px;">
+        <div class="viewport">
+            <div id="footer" class="footer">
+                <div class="winqr_title">
+                    天津津酒集团</div>
+                <div class="winqr_connect" style="margin-top: 15px;">
+                    <span class="footer_gray">详细咨询：</span><span><img src="./img/tel.gif" style="width: 20px;
+                        vertical-align: sub">400-1011-8986</span></div>
+                <div class="winqr_connect">
+                    <span class="footer_gray">业务联系：022-58209826&nbsp;</span></div>
+            </div>
+        </div>
+    </div>-->
+    <!--页面底部-->
+    <div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;">
+    </div>
+    <div class="sogoubottom" id="sougou_bottom" style="display: none;">
+    </div>
+
+</body>
+</html>
